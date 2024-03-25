@@ -4,3 +4,6 @@ pandas
 seaborn
 streamlit_chat
 transformers
+pandasai
+langchain
+langchain_experimental
