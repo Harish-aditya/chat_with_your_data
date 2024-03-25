@@ -7,3 +7,4 @@ transformers
 pandasai
 langchain
 langchain_experimental
+xlrd
