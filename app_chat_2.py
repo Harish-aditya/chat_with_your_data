@@ -35,17 +35,17 @@ class StreamlitResponse(ResponseParser):
         return
 
 
-st.write("# Chat with your Dataset")
+st.write("# Chat with your Data")
 
 os.environ["OPENAI_API_KEY"]="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"
 
 
 df = load_data(r"./data")
 
-with st.expander("🔎 Dataframe Preview"):
+with st.expander("🔎 Data Preview"):
     st.write(df.tail(10))
 
-query = st.text_area("🗣️ Chat with Dataframe")
+query = st.text_area("🗣️ Chat with Data")
 container = st.container()
 
 col1, col2 = st.columns(2)
