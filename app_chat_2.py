@@ -37,9 +37,9 @@ class StreamlitResponse(ResponseParser):
 
 st.write("# Chat with your Data")
 
-key = st.text_input("Enter your Key")
+# key = st.text_input("Enter your Key")
 
-os.environ["OPENAI_API_KEY"]=key
+os.environ["OPENAI_API_KEY"]=st.secrets['OPENAI_API_KEY']
 
 
 df = load_data(r"./data")
