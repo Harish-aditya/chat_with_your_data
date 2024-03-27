@@ -78,6 +78,27 @@ if query:
     context = """
     You are the data analysit. you need to analysis and give a paragraph or points reply to the manager .you should be able to explain the data clearly.
     Strictly avoid charts.
+
+    Information about Data
+    Row ID - Unique row Identifier
+    Order ID - Unqiue Order Identifier
+    Order Date - Date of the order
+    Ship Date - Date of the shipping of the placed order
+    Customer - Name of the Customer who places order.
+    Segment - Group of type of Customer
+    Country/Region - Country or Region of the Customer
+    City - City of the Customer
+    State/Province - State or Province of the Customer
+    Postal Code - Postal Code of the Customer
+    Region - Region of the Country the Customer resides in.
+    Product ID - Unqiue Identifier of the Product in the Store
+    category - Category of the Product in the store
+    Sub Category - Sub Category of the product in the store
+    Product Name - Name of the Product in the store
+    Sales - Sales indicates sum amount store gets off the order
+    Quantity - Units of the product in the order
+    Discount - Decimal form of percentange of Discount given by store for the customer.
+    Profit - Profit made by the store from that particular order.
     """
 
     context_pandas = """
